@@ -1,7 +1,5 @@
 import socket
 import binascii
-import time
-
 
 class DMXLights:
 
@@ -63,12 +61,3 @@ class DMXLights:
 
         if updateImmediately:
             self.updateLights()
-
-dmx = DMXLights()
-dmx.setLight(0, [255,0,0])
-time.sleep(1)
-dmx.setLight(0, [0,255,0])
-time.sleep(1)
-dmx.setLight(0, [0,0,255])
-time.sleep(1)
-dmx.setLight(0, [0,0,0])
