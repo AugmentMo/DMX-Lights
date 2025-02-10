@@ -1,0 +1,21 @@
+# 1. Create virtual python environment and activate it (you can also use conda)
+´´´
+virtualenv .venv
+source .venv/bin/activate
+´´´
+
+# 2. Install dependencies for audio test
+´´´
+pip install -r requirements.txt
+´´´
+
+# 3. Run tests
+´´´
+python test.py
+´´´
+
+or the audio test:
+
+´´´
+python test_audio.py
+´´´
